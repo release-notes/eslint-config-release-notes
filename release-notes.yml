@@ -1,0 +1,13 @@
+title: Release Notes of Release Notes ESlint config
+
+releases:
+- version: 0.1.0
+  date: 2017-07-08T20:51:00Z
+  title: First Release
+  description: Base coding styles, on top of airbnb base config
+  added:
+  - Add support for 120 chars line length.
+  - Allow usage of `void`.
+  - Enforce consistent return.
+  - Add MIT license.
+  - Introduce these release notes.
