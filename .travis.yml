@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '6'
+- '7'
+- '8'
+git:
+  depth: 3
+script:
+- npm run lint
+deploy:
+  provider: npm
+  email: az@kreatiefer.de
+  api_key:
+    secure: MhtlU5e/bZkDYU8Zb+AJToMw6pc/xFm4BR+HNZxWafPof8QRh+hyq9lKipi1GNr1M2yMrErzBtsAjdMU3g9FllAKrqb3TDTozZ6eRrorhVdufw53zpZ4ORUkIOwlNyXSiOEyoR3RmsHXYstRIwHQgwNJaK1/pPfpqoq+bUt4M3F9i2qffGi3IOXDIrh7mEayo7daFmgxvQpXVIfmUfwth8CKBHPHkZg2p7ZFlx4RRIOZwIrHFv3y5ilY1hrEtkT8AZiI3Ao1J2mAZy8d6DSJdhM34BBGOx+ejkUgrGOftwMfAAQpWTsGUvPbHcAqtWOEodQV9uJr7YTsbvzvuSQ2XK3rFcXEgk7Q7lqE5zVFPwTz0FOZLyopCbCXkR8nKGEBZiDuwjrCAEXQKRHrI1O7BjHM6VGVF3T0wmkkEVYUJ+CrLzJ0L1J0NBmdh2FDwftICeY6QcA59EmMiDFZ6rdrD4TAHeCieVmowKu/JzLj/2o8DEgwR61UIXA9+c6/5v8+kUegp9CVym7k1gn3rcLKsFs25+tTPterpW0fXRVDiPCvHJqD5znq3IptbijgnsDIez/Mjt4atqX8gx9/mV7FTwP9Xn4zh1ONEVsdQ9dOx8cW1i5/KY0vCqcZ9ULuv6uwpAAqa8zeMmnqvQzOFc5fPPNzJVi67o7suNW07tH2t0I=
+  on:
+    tags: true
