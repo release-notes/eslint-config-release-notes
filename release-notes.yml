@@ -2,6 +2,8 @@ title: Release Notes of Release Notes ESlint config
 
 releases:
 - version: Next
+  added:
+  - Introduce ci/cd pipeline, setup travic ci.
   improved:
   - Definition of comma dangle rules. Function params must not use trailing commas, anymore.
   - Upgraded to lates dependencies (eslint@4.5, eslint-config-airbnb-base@11.3).
