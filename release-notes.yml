@@ -4,6 +4,7 @@ releases:
 - version: Next
   improved:
   - Definition of comma dangle rules. Function params must not use trailing commas, anymore.
+  - Upgraded to lates dependencies (eslint@4.5, eslint-config-airbnb-base@11.3).
 - version: 0.1.0
   date: 2017-07-08T20:51:00Z
   title: First Release
