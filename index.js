@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: 'airbnb-base',
   rules: {
@@ -14,6 +16,15 @@ module.exports = {
         ignoreTemplateLiterals: false,
       },
     ],
-    'no-void': 'off'
+    'no-void': 'off',
+    'comma-dangle': [
+      'error', {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
+    ],
   },
 };

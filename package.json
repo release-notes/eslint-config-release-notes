@@ -1,6 +1,6 @@
 {
   "name": "@release-notes/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint configuration to check Coding Standards on Release Notes node.js projects.",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/release-notes",
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.2.0"
+    "eslint-config-airbnb-base": "^11.3.2"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.6.1"
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
