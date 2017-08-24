@@ -1,14 +1,17 @@
 title: Release Notes of Release Notes ESlint config
 
 releases:
-- version: Next
+- version: 1.0.0
+  date: 2017-08-23
+  title: Eslint 4
+  description: Update dependencies for eslint 4 compatibilitity
   added:
   - Introduce ci/cd pipeline, setup travic ci.
   improved:
   - Definition of comma dangle rules. Function params must not use trailing commas, anymore.
   - Upgraded to lates dependencies (eslint@4.5, eslint-config-airbnb-base@11.3).
 - version: 0.1.0
-  date: 2017-07-08T20:51:00Z
+  date: 2017-07-08
   title: First Release
   description: Base coding styles, on top of airbnb base config
   added:

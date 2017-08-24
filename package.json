@@ -1,6 +1,6 @@
 {
   "name": "@release-notes/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint configuration to check Coding Standards on Release Notes node.js projects.",
   "main": "index.js",
   "scripts": {
