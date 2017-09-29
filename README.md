@@ -1,5 +1,7 @@
 # Release Notes Coding Style
 
+[![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/eslint-config-release-notes)
+
 Extends [Airbnb JavaScript Style Guide][airbnb-js-styleguide] for use on [release-notes][release-notes] node projects.
 
 ## Installation
